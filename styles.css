@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.gallery-img {
+    display: none;
+    max-height: 600px;
+}
+
+.active {
+    display: block;
+}
+
+.image-gallery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: rgb(17, 33, 117);
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px 20px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* .prev {} */
+
+.btn:disabled {
+    background-color: rgb(196, 196, 197);
+    cursor: not-allowed;
+}
+
+.swiper-slide {
+    text-align: center;
+  }
+  
+  img {
+    height: 600px;
+  }
